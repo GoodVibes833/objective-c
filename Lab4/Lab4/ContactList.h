@@ -15,5 +15,7 @@
 @property (nonatomic, strong) NSMutableArray *contactList;
 
 - (void) addContact: (Contact *) newContact;
+- (NSString *) findId: (NSString *) inputId;
+- (NSString *) findName: (NSString *) inputName;
 
 @end

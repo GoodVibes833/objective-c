@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1E382D214654D300BCFE0E /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E382C214654D300BCFE0E /* History.m */; };
 		CBA150E82142DEF700A737E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA150E72142DEF700A737E5 /* main.m */; };
 		CBA150F62142F36000A737E5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA150F52142F36000A737E5 /* Contact.m */; };
 		CBA150F92142F6AF00A737E5 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA150F82142F6AF00A737E5 /* ContactList.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB1E382B214654D300BCFE0E /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		CB1E382C214654D300BCFE0E /* History.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
 		CBA150E42142DEF700A737E5 /* Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab4; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA150E72142DEF700A737E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBA150F42142F36000A737E5 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
@@ -69,10 +72,12 @@
 				CBA150E72142DEF700A737E5 /* main.m */,
 				CBA150F72142F6AF00A737E5 /* ContactList.h */,
 				CBA150F82142F6AF00A737E5 /* ContactList.m */,
-				CBA150F42142F36000A737E5 /* Contact.h */,
 				CBA150FA2143046B00A737E5 /* InputHandler.h */,
 				CBA150FB2143046B00A737E5 /* InputHandler.m */,
+				CBA150F42142F36000A737E5 /* Contact.h */,
 				CBA150F52142F36000A737E5 /* Contact.m */,
+				CB1E382B214654D300BCFE0E /* History.h */,
+				CB1E382C214654D300BCFE0E /* History.m */,
 			);
 			path = Lab4;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				CBA150F92142F6AF00A737E5 /* ContactList.m in Sources */,
 				CBA150E82142DEF700A737E5 /* main.m in Sources */,
 				CBA150F62142F36000A737E5 /* Contact.m in Sources */,
+				CB1E382D214654D300BCFE0E /* History.m in Sources */,
 				CBA150FC2143046B00A737E5 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,9 +7,7 @@
 //
 
 #import "ContactList.h"
-
 @implementation ContactList
-
 
 - (instancetype)init
 {
@@ -21,21 +19,66 @@
 }
 
 -(void) addContact: (Contact *) newContact{
+    
+    for (Contact *contact in _contactList){
+        if(contact.email == newContact.email)
+        {
+            NSLog(@"email already exists");
+            break;
+        }
+    }
     [_contactList addObject: newContact];
 }
+
+- (NSString *) findId: (NSString *) inputId
+{
+    
+    NSMutableString *result = [NSMutableString new];
+    for (Contact *contact in _contactList){
+        if(contact.id == inputId)
+        {
+        NSString *contractStr =  [NSString stringWithFormat:@"%@\n",contact];
+        [result appendString: contractStr];
+        NSLog(@"\n%@",result);
+        return result;
+
+        }
+    }
+    NSLog(@"\n%@",result);
+    return result;
+}
+
+- (NSString *) findName: (NSString *) inputName
+{
+    
+    NSMutableString *result = [NSMutableString new];
+    for (Contact *contact in _contactList){
+        if(contact.name == inputName)
+        {
+            NSString *contractStr =  [NSString stringWithFormat:@"%@\n",contact];
+            [result appendString: contractStr];
+            NSLog(@"\n%@",result);
+            return result;
+            
+        }
+    }
+    NSLog(@"\n%@",result);
+    return result;
+}
+
 
 - (NSString *)description
 {
     
     NSMutableString *result = [NSMutableString new];
-    int count = 0;
     for (Contact *contact in _contactList){
-        NSString *contractStr =  [NSString stringWithFormat:@"%d : %@\n",count,contact];
-        count ++;
+        NSString *contractStr =  [NSString stringWithFormat:@"%@\n",contact];
         [result appendString: contractStr];
     }
     return result;
-};
+}
+
+
 
 
 

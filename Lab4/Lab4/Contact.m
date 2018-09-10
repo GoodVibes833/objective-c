@@ -10,10 +10,11 @@
 
 @implementation Contact
 
-- (instancetype)initWithName:(NSString *) name andEmail: (NSString *) email
+- (instancetype)initWithId:(NSString *) id andName:(NSString *) name andEmail: (NSString *) email
 {
     self = [super init];
     if (self) {
+        _id = id;
         _name = name;
         _email = email;
     }
@@ -22,6 +23,6 @@
 
 -(NSString *)description
 {
-    return [NSString stringWithFormat:@"Name: %@, Email: %@",self.name,self.email];
+    return [NSString stringWithFormat:@"Id: %@, Name: %@, Email: %@", self.id, self.name,self.email];
 }
 @end

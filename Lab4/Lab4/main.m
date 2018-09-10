@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
             }else if([option isEqualToString:@"list"]){
                 NSLog(@"\n%@",contactList);
                 [historyList addCommand:@"list"];
-//
+                
             }else if([option isEqualToString:@"show"]){
                 NSString *id = [InputHandler getUserInputWithLength:255 withPrompt:@"id to show : "];
 //                1. find the id's name and email

@@ -1,0 +1,33 @@
+//
+//  QuestionManager.m
+//  Lab3
+//
+//  Created by Alex Jintak Han on 2018-09-10.
+//  Copyright © 2018 Minami Munakata. All rights reserved.
+//
+
+#import "QuestionManager.h"
+
+@implementation QuestionManager
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _questions = [NSMutableArray array];
+    }
+    return self;
+}
+
+- (NSString *) timeOutput{
+    Question *last = [_questions objectAtIndex: [_questions count]-1];
+    Question *first = [_questions objectAtIndex:0];
+    
+    NSTimeInterval timeInterval = [[last endTime] timeIntervalSinceDate:[first startTime]];
+    long second = lround(timeInterval);
+    
+    return [NSString stringWithFormat:@"total time : %lus, averate : %lus",
+            second, second/[_questions count]];
+}
+
+@end

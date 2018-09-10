@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CB1E382D214654D300BCFE0E /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E382C214654D300BCFE0E /* History.m */; };
+		CB3011422146CC2900686E36 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3011412146CC2900686E36 /* Phone.m */; };
 		CBA150E82142DEF700A737E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA150E72142DEF700A737E5 /* main.m */; };
 		CBA150F62142F36000A737E5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA150F52142F36000A737E5 /* Contact.m */; };
 		CBA150F92142F6AF00A737E5 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA150F82142F6AF00A737E5 /* ContactList.m */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		CB1E382B214654D300BCFE0E /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
 		CB1E382C214654D300BCFE0E /* History.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		CB3011402146CC2900686E36 /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		CB3011412146CC2900686E36 /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
 		CBA150E42142DEF700A737E5 /* Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab4; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA150E72142DEF700A737E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBA150F42142F36000A737E5 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				CBA150F52142F36000A737E5 /* Contact.m */,
 				CB1E382B214654D300BCFE0E /* History.h */,
 				CB1E382C214654D300BCFE0E /* History.m */,
+				CB3011402146CC2900686E36 /* Phone.h */,
+				CB3011412146CC2900686E36 /* Phone.m */,
 			);
 			path = Lab4;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3011422146CC2900686E36 /* Phone.m in Sources */,
 				CBA150F92142F6AF00A737E5 /* ContactList.m in Sources */,
 				CBA150E82142DEF700A737E5 /* main.m in Sources */,
 				CBA150F62142F36000A737E5 /* Contact.m in Sources */,

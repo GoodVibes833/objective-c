@@ -43,6 +43,8 @@ int main(int argc, const char * argv[]) {
             if (answer == userAnsInt){
                 NSLog(@"Right!\n");
                 [myScore setRight:[myScore right] + 1];
+                [questionType answer];
+                NSLog(@"duration : %f",[questionType answerTIme]);
 
             } else if ([userAnswer isEqualToString:@"quit"]) {
                 NSLog(@"%@", [questionManager timeOutput]);
@@ -51,6 +53,8 @@ int main(int argc, const char * argv[]) {
             } else {
                 NSLog(@"Wrong!\n");
                 [myScore setWrong:[myScore wrong] + 1];
+                [questionType answer];
+                NSLog(@"duration : %f",[questionType answerTIme]);
             }
             [myScore scoreRight:[myScore right] andWrong:[myScore wrong]];
             

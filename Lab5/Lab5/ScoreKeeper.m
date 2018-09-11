@@ -12,7 +12,7 @@
 
 - (void) scoreRight: (int) right andWrong: (int) wrong {
     int rate = ((float) right / (right + wrong)) * 100;
-    NSLog(@"score: %d right, %d wrong ---- %d%%", right, wrong, rate);
+    NSLog(@"right:%d ,wrong: %d -> %d%%", right, wrong, rate);
 }
 
 @end

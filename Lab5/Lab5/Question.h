@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Question : NSObject
-
 @property (nonatomic, strong) NSString *question;
 @property (nonatomic, assign) NSInteger answer;
 @property (nonatomic, strong) NSDate *startTime;

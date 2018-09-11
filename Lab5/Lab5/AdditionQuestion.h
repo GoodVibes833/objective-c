@@ -10,6 +10,9 @@
 
 @interface AdditionQuestion : Question
 
+@property (nonatomic, strong) NSString *questionA;
+@property (nonatomic, assign) NSInteger answerA;
+
 - (void) generateQuestions;
 
     

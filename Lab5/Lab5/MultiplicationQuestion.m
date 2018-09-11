@@ -19,7 +19,6 @@
     return self;
 }
 
-
 - (void) generateQuestions{
     super.question = [NSString stringWithFormat:@"%lu * %lu = ", (long)super.leftValue,
                       (long)super.rightValue];

@@ -7,6 +7,7 @@
 //
 
 #import "QuestionFactory.h"
+#import "AdditionQuestion.h"
 
 @implementation QuestionFactory
 
@@ -14,7 +15,7 @@
 {
     self = [super init];
     if (self) {
-        _questionTypes = @[@"AddtionQuestion",@"SubtractionQuestion",
+        _questionTypes = @[@"AdditionQuestion",@"SubtractionQuestion",
                            @"MultiplicationQuestion",@"DivisionQuestion"];
     }
     return self;
@@ -24,8 +25,8 @@
 //    return an instance of + - x / question object
     NSString *type = [_questionTypes objectAtIndex: arc4random_uniform(4)];
 
-//    [[AdditionQeustion alloc] init];
 //    takes string return class
+//    return [[AdditionQuestion alloc] init];
     return [[NSClassFromString(type) alloc] init];
     
 }

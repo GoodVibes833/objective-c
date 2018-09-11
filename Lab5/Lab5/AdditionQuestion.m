@@ -22,8 +22,7 @@
 
 
 - (void) generateQuestions{
-    super.question = [NSString stringWithFormat:@"%lu + %lu = ", (long)super.leftValue,
-                      (long)super.rightValue];
+    super.question = [NSString stringWithFormat: @"%lu + %lu = ", (long)super.leftValue, (long)super.rightValue];
     super.answer = super.leftValue + super.rightValue;
 }
 

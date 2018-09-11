@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3808312146F9FE0076C43A /* SubtractionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = CB38081E2146F9FD0076C43A /* SubtractionQuestion.m */; };
+		CB3808322146F9FE0076C43A /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3808222146F9FD0076C43A /* InputHandler.m */; };
+		CB3808332146F9FE0076C43A /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3808252146F9FE0076C43A /* Question.m */; };
+		CB3808342146F9FE0076C43A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3808262146F9FE0076C43A /* main.m */; };
+		CB3808352146F9FE0076C43A /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3808272146F9FE0076C43A /* QuestionFactory.m */; };
+		CB3808362146F9FE0076C43A /* DivisionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3808292146F9FE0076C43A /* DivisionQuestion.m */; };
+		CB3808372146F9FE0076C43A /* MultiplicationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = CB38082A2146F9FE0076C43A /* MultiplicationQuestion.m */; };
+		CB3808382146F9FE0076C43A /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB38082C2146F9FE0076C43A /* QuestionManager.m */; };
+		CB3808392146F9FE0076C43A /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB38082F2146F9FE0076C43A /* ScoreKeeper.m */; };
+		CB38083A2146F9FE0076C43A /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3808302146F9FE0076C43A /* AdditionQuestion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB3808122146F9E20076C43A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB3808142146F9E20076C43A /* Lab5_v2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab5_v2; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB38081E2146F9FD0076C43A /* SubtractionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubtractionQuestion.m; path = ../../Lab5/Lab5/SubtractionQuestion.m; sourceTree = "<group>"; };
+		CB38081F2146F9FD0076C43A /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = ../../Lab5/Lab5/Question.h; sourceTree = "<group>"; };
+		CB3808202146F9FD0076C43A /* SubtractionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubtractionQuestion.h; path = ../../Lab5/Lab5/SubtractionQuestion.h; sourceTree = "<group>"; };
+		CB3808212146F9FD0076C43A /* AdditionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdditionQuestion.h; path = ../../Lab5/Lab5/AdditionQuestion.h; sourceTree = "<group>"; };
+		CB3808222146F9FD0076C43A /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputHandler.m; path = ../../Lab5/Lab5/InputHandler.m; sourceTree = "<group>"; };
+		CB3808232146F9FD0076C43A /* DivisionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DivisionQuestion.h; path = ../../Lab5/Lab5/DivisionQuestion.h; sourceTree = "<group>"; };
+		CB3808242146F9FE0076C43A /* QuestionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionFactory.h; path = ../../Lab5/Lab5/QuestionFactory.h; sourceTree = "<group>"; };
+		CB3808252146F9FE0076C43A /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = ../../Lab5/Lab5/Question.m; sourceTree = "<group>"; };
+		CB3808262146F9FE0076C43A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../Lab5/Lab5/main.m; sourceTree = "<group>"; };
+		CB3808272146F9FE0076C43A /* QuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionFactory.m; path = ../../Lab5/Lab5/QuestionFactory.m; sourceTree = "<group>"; };
+		CB3808282146F9FE0076C43A /* MultiplicationQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiplicationQuestion.h; path = ../../Lab5/Lab5/MultiplicationQuestion.h; sourceTree = "<group>"; };
+		CB3808292146F9FE0076C43A /* DivisionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DivisionQuestion.m; path = ../../Lab5/Lab5/DivisionQuestion.m; sourceTree = "<group>"; };
+		CB38082A2146F9FE0076C43A /* MultiplicationQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiplicationQuestion.m; path = ../../Lab5/Lab5/MultiplicationQuestion.m; sourceTree = "<group>"; };
+		CB38082B2146F9FE0076C43A /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionManager.h; path = ../../Lab5/Lab5/QuestionManager.h; sourceTree = "<group>"; };
+		CB38082C2146F9FE0076C43A /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionManager.m; path = ../../Lab5/Lab5/QuestionManager.m; sourceTree = "<group>"; };
+		CB38082D2146F9FE0076C43A /* ScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreKeeper.h; path = ../../Lab5/Lab5/ScoreKeeper.h; sourceTree = "<group>"; };
+		CB38082E2146F9FE0076C43A /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHandler.h; path = ../../Lab5/Lab5/InputHandler.h; sourceTree = "<group>"; };
+		CB38082F2146F9FE0076C43A /* ScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreKeeper.m; path = ../../Lab5/Lab5/ScoreKeeper.m; sourceTree = "<group>"; };
+		CB3808302146F9FE0076C43A /* AdditionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdditionQuestion.m; path = ../../Lab5/Lab5/AdditionQuestion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3808112146F9E20076C43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB38080B2146F9E20076C43A = {
+			isa = PBXGroup;
+			children = (
+				CB3808162146F9E20076C43A /* Lab5_v2 */,
+				CB3808152146F9E20076C43A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3808152146F9E20076C43A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3808142146F9E20076C43A /* Lab5_v2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3808162146F9E20076C43A /* Lab5_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB38082E2146F9FE0076C43A /* InputHandler.h */,
+				CB3808222146F9FD0076C43A /* InputHandler.m */,
+				CB38081F2146F9FD0076C43A /* Question.h */,
+				CB3808252146F9FE0076C43A /* Question.m */,
+				CB3808242146F9FE0076C43A /* QuestionFactory.h */,
+				CB3808272146F9FE0076C43A /* QuestionFactory.m */,
+				CB38082B2146F9FE0076C43A /* QuestionManager.h */,
+				CB38082C2146F9FE0076C43A /* QuestionManager.m */,
+				CB38082D2146F9FE0076C43A /* ScoreKeeper.h */,
+				CB38082F2146F9FE0076C43A /* ScoreKeeper.m */,
+				CB3808202146F9FD0076C43A /* SubtractionQuestion.h */,
+				CB38081E2146F9FD0076C43A /* SubtractionQuestion.m */,
+				CB3808212146F9FD0076C43A /* AdditionQuestion.h */,
+				CB3808302146F9FE0076C43A /* AdditionQuestion.m */,
+				CB3808282146F9FE0076C43A /* MultiplicationQuestion.h */,
+				CB38082A2146F9FE0076C43A /* MultiplicationQuestion.m */,
+				CB3808232146F9FD0076C43A /* DivisionQuestion.h */,
+				CB3808292146F9FE0076C43A /* DivisionQuestion.m */,
+				CB3808262146F9FE0076C43A /* main.m */,
+			);
+			path = Lab5_v2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3808132146F9E20076C43A /* Lab5_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB38081B2146F9E20076C43A /* Build configuration list for PBXNativeTarget "Lab5_v2" */;
+			buildPhases = (
+				CB3808102146F9E20076C43A /* Sources */,
+				CB3808112146F9E20076C43A /* Frameworks */,
+				CB3808122146F9E20076C43A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab5_v2;
+			productName = Lab5_v2;
+			productReference = CB3808142146F9E20076C43A /* Lab5_v2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB38080C2146F9E20076C43A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = AlexHan;
+				TargetAttributes = {
+					CB3808132146F9E20076C43A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CB38080F2146F9E20076C43A /* Build configuration list for PBXProject "Lab5_v2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB38080B2146F9E20076C43A;
+			productRefGroup = CB3808152146F9E20076C43A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3808132146F9E20076C43A /* Lab5_v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3808102146F9E20076C43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3808362146F9FE0076C43A /* DivisionQuestion.m in Sources */,
+				CB3808332146F9FE0076C43A /* Question.m in Sources */,
+				CB3808312146F9FE0076C43A /* SubtractionQuestion.m in Sources */,
+				CB38083A2146F9FE0076C43A /* AdditionQuestion.m in Sources */,
+				CB3808342146F9FE0076C43A /* main.m in Sources */,
+				CB3808352146F9FE0076C43A /* QuestionFactory.m in Sources */,
+				CB3808372146F9FE0076C43A /* MultiplicationQuestion.m in Sources */,
+				CB3808392146F9FE0076C43A /* ScoreKeeper.m in Sources */,
+				CB3808322146F9FE0076C43A /* InputHandler.m in Sources */,
+				CB3808382146F9FE0076C43A /* QuestionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB3808192146F9E20076C43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB38081A2146F9E20076C43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB38081C2146F9E20076C43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB38081D2146F9E20076C43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB38080F2146F9E20076C43A /* Build configuration list for PBXProject "Lab5_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3808192146F9E20076C43A /* Debug */,
+				CB38081A2146F9E20076C43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB38081B2146F9E20076C43A /* Build configuration list for PBXNativeTarget "Lab5_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB38081C2146F9E20076C43A /* Debug */,
+				CB38081D2146F9E20076C43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB38080C2146F9E20076C43A /* Project object */;
+}

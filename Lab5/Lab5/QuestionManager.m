@@ -20,7 +20,7 @@
 }
 
 - (NSString *) timeOutput{
-    Question *last = [_questions objectAtIndex: [_questions count]-1];
+    Question *last = [_questions objectAtIndex: [_questions count]-1 ];
     Question *first = [_questions objectAtIndex:0];
     
     NSTimeInterval timeInterval = [[last endTime] timeIntervalSinceDate:[first startTime]];

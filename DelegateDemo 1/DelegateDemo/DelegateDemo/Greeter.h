@@ -1,5 +1,5 @@
 //
-//  LovelyPerson.h
+//  Greeter.h
 //  DelegateDemo
 //
 //  Created by Derrick Park on 2018-09-13.
@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "GreeterDelegate.h"
-@interface LovelyPerson : NSObject <GreeterDelegate>
+@interface Greeter : NSObject
 
+@property (nonatomic, weak) id<GreeterDelegate> delegate;
+- (void) greet;
 
 @end

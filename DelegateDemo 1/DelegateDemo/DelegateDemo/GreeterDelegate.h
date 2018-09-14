@@ -1,5 +1,5 @@
 //
-//  LovelyPerson.h
+//  GreeterDelegate.h
 //  DelegateDemo
 //
 //  Created by Derrick Park on 2018-09-13.
@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GreeterDelegate.h"
-@interface LovelyPerson : NSObject <GreeterDelegate>
 
+@protocol GreeterDelegate
+
+- (BOOL)shouldSayHello;
 
 @end

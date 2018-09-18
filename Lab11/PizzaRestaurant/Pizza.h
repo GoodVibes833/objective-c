@@ -7,13 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-typedef enum PizzaSize{
-    small,
-    midium,
-    large
-}PizzaSize;
-
+#import "KitchenDelegate.h"
 
 
 @interface Pizza : NSObject
@@ -22,6 +16,7 @@ typedef enum PizzaSize{
 @property(nonatomic, strong) NSArray *toppings;
 
 - (instancetype)initWithSize: (PizzaSize) size toppings:(NSArray *) toppings;
+
 + (Pizza *)largePepperoni;
 + (Pizza *)meatLoversWithSize:(PizzaSize)size;
 

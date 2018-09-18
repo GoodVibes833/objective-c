@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"rand is %ld, Input was %ld", (long)rand,(long)myInt);
 
-        PaymentGateway *paymentGayeway =  [PaymentGateway new];
+        PaymentGateway *paymentGayeway = [PaymentGateway new];
         PaypalPaymentService *paypal = [PaypalPaymentService new];
         StripePaymentService *stripe = [StripePaymentService new];
         AmazonPaymentService *amazon = [AmazonPaymentService new];

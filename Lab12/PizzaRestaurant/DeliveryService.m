@@ -18,9 +18,10 @@
     [deliverCar deliverPizza:pizza];
 }
 
-//-(NSArray*) detailArray:(Pizza *)pizza{
-//
-//
-//}
+-(NSArray*) detailArray:(Pizza *)pizza{
+    NSArray *result =[NSArray new];
+    [pizza description];
+    return result;
+}
 
 @end
